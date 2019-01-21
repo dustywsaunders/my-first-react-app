@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
+import LightSwitch from './components/LightSwitch'
 
 class App extends Component {
   render() {
@@ -24,7 +25,8 @@ class App extends Component {
         </header>
 
         <main>
-          <Title />
+          <Title content="Some Simple Title" />
+          <LightSwitch />
         </main>
       </div>
     );
