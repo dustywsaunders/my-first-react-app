@@ -34,3 +34,15 @@
 .user {
   color: salmon;
 }
+
+#hours {
+  color: blue
+}
+
+#minutes {
+  color: orange
+}
+
+#seconds {
+  color: red
+}

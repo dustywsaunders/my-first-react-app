@@ -16,3 +16,4 @@ export default class LightSwitch extends Component {
     </div>)
   }
 }
+
