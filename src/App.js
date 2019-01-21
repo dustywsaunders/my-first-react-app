@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Title from './components/Title'
-import LightSwitch from './components/LightSwitch'
+import Title from './components/Title';
+import LightSwitch from './components/LightSwitch';
+import UserBoard from './components/UserBoard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
           <h2>Welcome to Codaisseur</h2>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -17,16 +18,18 @@ class App extends Component {
           <a
             className="App-link"
             href="https://reactjs.org"
-            target="_blank"
+            target="_blank" 
             rel="noopener noreferrer"
           >
             Learn React
           </a>
-        </header>
+        </header> */}
 
         <main>
-          <Title content="Some Simple Title" />
+          <Title content="Oh look, it's a TITLE!" />
           <LightSwitch />
+          <UserBoard />
+          
         </main>
       </div>
     );
